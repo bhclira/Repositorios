@@ -11,7 +11,6 @@ Classificação:
 */
 
 
-
 function calcularIMC(peso, altura) {
     return peso / (altura ** 2);
 }
@@ -37,7 +36,7 @@ function classificarImc(imc) {
     }
 }
 
-// Main
+// Main - Função Invocada Imediatamente
 (function () {
     const nome = 'Breno';
     const peso = 70;
@@ -46,5 +45,3 @@ function classificarImc(imc) {
     const imc = calcularIMC(peso, altura);
     console.log(classificarImc(imc));
 })();
-
-
