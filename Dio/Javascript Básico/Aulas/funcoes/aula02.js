@@ -10,14 +10,7 @@ Classificação:
 - Acima de 40: Obesidade grau 3.
 */
 
-function main() {
-    const nome = 'Breno';
-    const peso = 70;
-    const altura = 1.75;
 
-    const imc = calcularIMC(peso, altura);
-    console.log(classificarImc(imc));
-}
 
 function calcularIMC(peso, altura) {
     return peso / (altura ** 2);
@@ -44,6 +37,14 @@ function classificarImc(imc) {
     }
 }
 
-main();
+// Main
+(function () {
+    const nome = 'Breno';
+    const peso = 70;
+    const altura = 1.75;
+
+    const imc = calcularIMC(peso, altura);
+    console.log(classificarImc(imc));
+})();
 
 
