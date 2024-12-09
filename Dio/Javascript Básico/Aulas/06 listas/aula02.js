@@ -12,4 +12,4 @@ for (let i = 0; i < notas.length - 1; i++) {
     soma = soma + notas[i];
 }
 
-console.log(soma / notas.length);
+console.log('Sua média = ' + (soma / notas.length).toFixed(2)); // Sua média = 5.40
