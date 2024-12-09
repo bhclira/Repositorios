@@ -23,6 +23,4 @@ const uno = new Carro('Fiat', 'prata', 1/12);
 const palio = new Carro('Fiat', 'preto', 1/10);
 
 console.log(uno.calcularGastoDePercurso(70, 5));
-
-uno.calcularGastoDePercurso(70, 5);
-uno.calcularGastoDePercurso(70, 5);
+console.log(palio.calcularGastoDePercurso(120, 5));
