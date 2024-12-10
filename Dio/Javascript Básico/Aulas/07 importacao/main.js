@@ -13,19 +13,13 @@ Saida:
 */
 const {gets, print} = require('./funcoes_auxiliares.js');
 
-const numerosSorteados = [];
+let maiorValorEncontrado = 0;
 
 for (let i = 0; i < 5; i++) {
     const numeroSorteado = gets();
-    numerosSorteados.push(numeroSorteado);
+    if (numeroSorteado > maiorValorEncontrado) {
+        maiorValorEncontrado = numeroSorteado;
+    }
 };
 
-let maiorValor = 0;
-
-for (let i = 0; i < numerosSorteados.length; i++) {
-    if (numerosSorteados[i] > maiorValor) {
-        maiorValor = numerosSorteados[i];
-    }
-}
-
-print(maiorValor);
+print(maiorValorEncontrado);
