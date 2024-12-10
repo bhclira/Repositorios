@@ -1,4 +1,5 @@
-const alunos = [5, 50, 10, 98, 23];
+
+const alunos = [10, 5, 50, 10, 98, 23, 33, 44, 99, 7];
 let i = 0;
 
 function gets () {
@@ -11,7 +12,4 @@ function print(texto) {
     console.log(texto)
 }
 
-module.exports = {
-    gets: gets,
-    print: print
-};
+module.exports = { gets: gets, print: print };
