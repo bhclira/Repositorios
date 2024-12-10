@@ -1,14 +1,14 @@
 
-const alunos = [5, 3, 4, 1, 10, 8];
+const salario = [2000, 250];
 let i = 0;
 
 function gets () {
-    const valor = alunos[i];
+    const valor = salario[i];
     i++;
     return valor;
 }
 
-function print(texto) {
+function print (texto) {
     console.log(texto)
 }
 
